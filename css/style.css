@@ -1,0 +1,42 @@
+/* stili generali della pagina */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.flex-header {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 500;
+}
+
+.width-1 {
+    width: 90%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* stili pagina mobile first */
+
+.icon-white {
+    color: #fff;
+    font-size: 18px;
+}
+
+.color-blue {
+    background-color: rgb(29, 131, 255);
+}
