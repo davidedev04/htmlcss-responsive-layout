@@ -10,16 +10,6 @@
     font-family: 'PT Sans', sans-serif;
 }
 
-.flex-header {
-    width: 100vw;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 500;
-}
-
 .width-1 {
     width: 90%;
 }
@@ -30,7 +20,21 @@
     align-items: center;
 }
 
+img{
+    width: 100%;
+}
+
 /* stili pagina mobile first */
+
+.flex-header {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 500;
+}
 
 .icon-white {
     color: #fff;
@@ -39,4 +43,51 @@
 
 .color-blue {
     background-color: rgb(29, 131, 255);
+}
+
+/* stili contentuto centrale */
+
+main{
+    padding-top: 100px;
+}
+
+.flex-section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-violet{
+    background-color: rgb(157, 89, 220);
+}
+
+.color-black{
+    background-color: #393939;
+}
+
+.card-type-1 {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+    /* DEBUG */
+    min-height: 300px;
+}
+
+.color-card-blue{
+    background-color: lightblue;
+}
+
+.color-card-white{
+    background-color: #fff;
+}
+
+.card-type-2{
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 40px;
+
+    /* DEBUG */
+    min-height: 300px;
 }
