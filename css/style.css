@@ -11,7 +11,8 @@
 }
 
 .width-1 {
-    width: 90%;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .flex {
@@ -42,7 +43,7 @@ img{
 }
 
 .color-blue {
-    background-color: rgb(29, 131, 255);
+    background-color: #0084fd;
 }
 
 /* stili contentuto centrale */
@@ -53,30 +54,25 @@ main{
 
 .flex-section {
     width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 30px 0;
 }
 
 .color-violet{
-    background-color: rgb(157, 89, 220);
+    background-color: #9593e6;
 }
 
 .color-black{
-    background-color: #393939;
+    background-color: #333333;
 }
 
 .card-type-1 {
     width: 100%;
     margin-bottom: 20px;
     border-radius: 20px;
-    
-    /* DEBUG */
-    min-height: 300px;
 }
 
 .color-card-blue{
-    background-color: lightblue;
+    background-color: #b5ddff;
 }
 
 .color-card-white{
@@ -91,3 +87,223 @@ main{
     /* DEBUG */
     min-height: 300px;
 }
+
+.scritte-card-1{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.title-card{
+    color: #0084fd;
+    padding-top: 25px;
+}
+
+.scritte-card-p{
+    color: #63798c;
+    font-weight: bold;
+    padding-top: 25px;
+    line-height: 1.5;
+}
+
+.button{
+    text-align: center;
+    width: 60%;
+    background-color: #0084fd;
+    border-radius: 40px;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+.button a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.scritte-card-2{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.icone-blue{
+    color: #0084fd;
+    font-size: 90px;
+}
+
+.strategic{
+    padding: 50px 0;
+}
+
+.strategic h1{
+    color: #fff;
+    margin-top: 40px;
+    font-size: xx-large;
+}
+
+.strategic-p{
+    color: #fff;
+    line-height: 1.5;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.p-italic{
+    font-style: italic;
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.button-violet{
+    background-color: #9593e6;
+    padding: 13px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.margin-bottom{
+    padding-bottom: 25px;
+}
+
+.scritte-testimonials{
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.scritte-testimonials h1{
+    color: #9593e6;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.line-p{
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+/* .img-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.img-circle img{
+    border-radius: 50%;
+} */
+
+.padding-p{
+    padding: 30px 0;
+}
+
+.scritte-color-white{
+    color: #fff;
+}
+
+.left-card{
+    text-align: left;
+}
+
+.more{
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.benefits-space{
+    text-align: center;
+    font-size: 29px;
+    padding-bottom: 30px;
+}
+
+.number{
+    font-size: 40px;
+    color: #9593e6;
+}
+
+.sottotitolo{
+    padding-top: 20px;
+    color: #9593e6;
+}
+
+.img-cit h2{
+    color: #9593e6;
+    line-height: 1.6;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.linkedin{
+    width: 200px;
+}
+
+.get-started{
+    text-align: center;
+}
+
+.color-grey{
+    color: #d5d4f4;
+}
+
+.get-started h1{
+    color: #fdc15f;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.button-white{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 40px;
+    color: #9593e6;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.space-get-started{
+    padding: 20px 0;
+    font-size: 27px;
+}
+
+.copyright i{
+    font-size: 5px;
+}
+
+.copyright a{
+    color: #fff;
+}
+
+.riconoscimenti{
+    text-align: center;
+}
+
+.riconoscimenti p:last-child{
+    padding-top: 50px;
+}
+
+.riconoscimenti a{
+    color: #837fc1;
+}
+
+/* versione tablet */
+
+/* @media all and (min-width: 481px){
+
+    .width-1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-type-1{
+        width: calc(100% / 3);
+    }
+} */
