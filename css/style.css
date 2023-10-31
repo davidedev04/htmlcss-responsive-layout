@@ -67,7 +67,7 @@ main{
 
 .card-type-1 {
     width: 100%;
-    margin-bottom: 20px;
+    margin-top: 20px;
     border-radius: 20px;
 }
 
@@ -83,9 +83,6 @@ main{
     width: 100%;
     margin-bottom: 30px;
     border-radius: 40px;
-
-    /* DEBUG */
-    min-height: 300px;
 }
 
 .scritte-card-1{
@@ -184,15 +181,12 @@ main{
     font-size: 17px;
 }
 
-/* .img-circle{
+.img-circle img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-}
-
-.img-circle img{
-    border-radius: 50%;
-} */
+    object-fit: cover;
+} 
 
 .padding-p{
     padding: 30px 0;
@@ -294,16 +288,84 @@ main{
     color: #837fc1;
 }
 
-/* versione tablet */
+.flex-responsive-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-/* @media all and (min-width: 481px){
+ /* versione tablet */
+
+@media all and (min-width: 481px){
+
+    .width-1{
+        width: 90%;
+    }
+
+    .center-responsive{
+        justify-content: center;
+    }
+
+    .width-responsive{
+        width: calc((100% / 3) * 2 - 20px);
+        margin-right: 20px;
+    }
+
+    .width-responsive-1{
+        width: calc(100% / 3 - 20px);
+    }
+
+    .margin-responsive{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .width-responsive-3{
+        width: calc(100% / 2 - 40px);
+        margin: 20px;
+    }
+
+    .flex-responsive{
+        display: flex;
+    }
+
+    .container{
+        text-align: left;
+        padding-left: 20px;
+    }
 
     .width-1{
         display: flex;
         flex-wrap: wrap;
     }
 
-    .card-type-1{
-        width: calc(100% / 3);
+    .about-us{
+        padding-right: 27px;
     }
-} */
+}
+
+@media all and (min-width: 1200px){
+
+    .width-1{
+        width: 1200px;
+    }
+
+    .width-responsive-3{
+        width: calc(100% / 3 - 40px);
+    }
+
+    .flex-responsive-pc{
+        display: flex;
+    }
+
+    .space-responsive-pc{
+        width: calc(100% / 2 - 40px);
+    }
+
+    .margin-responsive-pc{
+        margin-top: 200px;
+        margin-left: 40px;
+    }
+}
